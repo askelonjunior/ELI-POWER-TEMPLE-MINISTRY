@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to ELI POWER TEMPLE MINISTRY(EPT), a place of worship, community, and service.">
+    <title>Home | ELI POWER TEMPLE MINISTRY(EPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <style>/* General Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body & Basic Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    /* Header */
+    header {
+        background-color: #ffffff;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    header .logo img {
+        max-width: 150px;
+        margin-left: 20px;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        margin-right: 20px;
+    }
+    
+    header nav a {
+        font-size: 18px;
+        color: #c99393;
+        transition: color 0.3s;
+    }
+    
+    header nav a:hover {
+        color: GOLD;
+    }
+    
+    /* Welcome Banner */
+    .welcome-banner {
+        background: url('images/background.jpg') no-repeat center center/cover;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .welcome-banner .overlay {
+        background: rgba(212, 200, 25, 0.5);
+        padding: 50px;
+    }
+    
+    .welcome-banner h1 {
+        font-size: 3rem;
+    }
+    
+    .welcome-banner p {
+        font-size: 1.25rem;
+    }
+    
+    /* Section Styling */
+    section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .cta {
+        background-color: GOLD;
+        color: white;
+        padding: 40px;
+    }
+    
+    .cta-button {
+        display: inline-block;
+        background-color: white;
+        color: GOLD;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .cta-button:hover {
+        background-color:goldenrod;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: goldenrod;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer .social-links a {
+        color: white;
+        margin: 0 10px;
+        font-size: 1.2rem;
+    }
+    
+    footer .social-links a:hover {
+        color: #fad91d;
+    }
+    
+    /* Media Queries for Responsiveness */
+    @media only screen and (max-width: 768px) {
+        header nav ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .welcome-banner h1 {
+            font-size: 2rem;
+        }
+    
+        .cta-button {
+            font-size: 1rem;
+        }
+    
+        section {
+            padding: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .logo img {
+            max-width: 120px;
+        }
+    
+        header nav a {
+            font-size: 16px;
+        }
+    }
+    /* Services Section */
+#services {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s forwards;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(145, 138, 138, 0.1);
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s forwards;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial footer {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+    </style>
+<body>
+
+    <!-- Header with logo and navigation -->
+    <header>
+        <div class="logo">
+            <img src="1 (1).jpg" alt="ELI POWER TEMPLE MINISTRY(EPT)Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="welcome.html">WELCOME</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <section class="welcome-banner">
+            <div class="overlay">
+                <h1>Welcome to ELI POWER TEMPLE MINISTRY(EPT)</h1>
+                <p>We are so glad you're here! Join us for worship, community, and growth.</p>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="content">
+                <h2>Our Mission</h2>
+                <p>At ELI POWER TEMPLE MINISTRY(EPT), we strive to be a welcoming community where everyone is valued and can grow in their faith. Whether you're new to the area or have been living here for years, there's a place for you!</p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Join Us for Worship</h2>
+            <p>We meet every Sunday at 10 AM for a time of worship, prayer, and teaching.</p>
+            <a href="services.html" class="cta-button">Learn More</a>
+        </section>
+        <!-- Services Section -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+        <h3>Sunday Worship</h3>
+        <p>Join us every Sunday for an uplifting worship experience. 10 AM – 12 PM</p>
+    </div>
+    <div class="service">
+        <h3>Prayer Meetings</h3>
+        <p>Weekly prayer meetings on Wednesday evenings. 6:30 PM – 8 PM</p>
+    </div>
+    <div class="service">
+        <h3>Youth Ministry</h3>
+        <p>Engaging and interactive ministry for teens. Saturdays, 4 PM</p>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <h2>What People Say</h2>
+    <div class="testimonial">
+        <p>"The services here are always so welcoming. I feel at home every Sunday!"</p>
+        <footer>- ACHEAMPONG ROSEMARY</footer>
+    </div>
+    <div class="testimonial">
+        <p>"I love the community here. The youth ministry has been life-changing for my kids!"</p>
+        <footer>-FELICITY FRIMPONG </footer>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ELI POWER TEMPLE MINISTRY(EPT). All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/ELI POWER TEMPLE MINISTRY" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/ELI POWER TEMPLE MINISTRY" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/ELI POWER TEMPLE MINISTRY" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
